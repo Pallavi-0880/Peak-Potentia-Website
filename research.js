@@ -167,7 +167,7 @@ const papers = [
         author: 'Research Paper By Anvi Singh',
         file: './pdf/Economic-Research-Paper-of-Anvi-Singh_67f8cf2419e0c.pdf'
     },
-    {               
+    {
         icon: './pdfImage/image (2).png',
         category: 'Economics',
         title: 'Explore the emergence of banking and financial institutions in ancient Greece, focusing on their role in economic development and commerce.',
@@ -300,7 +300,7 @@ const papers = [
         author: 'Research Paper By Krrish Somani',
         file: './pdf/Research-Paper-Krishh-Somani._6822edda0f7aa.pdf'
     },
-     {
+    {
         icon: './pdfImage/image (44).png',
         category: 'Economics',
         title: 'What strategies can businesses adopt to remain competitive in an increasingly  digital economy?  ',
@@ -315,11 +315,24 @@ const papers = [
 // YE CODE TOUCH MAT KARO
 // Automatically cards bana dega
 // ================================
+const searchInput = document.getElementById("searchInput");
 
-function loadPapers() {
+searchInput.addEventListener("keyup", function () {
+    const searchValue = this.value.toLowerCase();
+
+    const filteredPapers = papers.filter(paper =>
+        paper.title.toLowerCase().includes(searchValue) ||
+        paper.author.toLowerCase().includes(searchValue) ||
+        paper.category.toLowerCase().includes(searchValue)
+    );
+
+    loadPapers(filteredPapers);
+});
+function loadPapers(filteredPapers = papers) {
     const grid = document.getElementById('papersGrid');
+    grid.innerHTML = "";
 
-    papers.forEach(paper => {
+    filteredPapers.forEach(paper => {
         const card = `
             <div class="paper-item">
                 <div class="item-icon">
@@ -341,6 +354,9 @@ function loadPapers() {
         grid.innerHTML += card;
     });
 }
+
+
+
 
 // Page load hote hi papers show karo
 loadPapers();

@@ -784,7 +784,37 @@ body {
     min-height: 100vh;
     padding: 4rem 2rem;
 }
+.search-input {
+  width: 100%;
+  max-width: 520px;
+  padding: 14px 48px 14px 18px;
+  font-size: 16px;
+  border-radius: 999px; /* pill shape */
+  border: 2px solid #2c9d9f;
+  outline: none;
+  background: #ffffff;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+  margin: 0 auto 32px auto;
+  display: block;
+}
 
+/* Focus effect */
+.search-input:focus {
+  border-color: #f84e9d;
+  box-shadow: 0 8px 22px rgba(42, 127, 255, 0.25);
+}
+
+/* Placeholder style */
+.search-input::placeholder {
+  color: #9a9a9a;
+  font-weight: 400;
+}
+
+/* Hover */
+.search-input:hover {
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.08);
+}
 .section-header {
     text-align: center;
     margin-bottom: 4rem;
