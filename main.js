@@ -162,7 +162,29 @@ createDots();
 startAutoPlay();
 
 
+function openPopup() {
+    document.getElementById('teamPopup').classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
 
+function closePopup() {
+    document.getElementById('teamPopup').classList.remove('active');
+    document.body.style.overflow = 'auto';
+}
+
+// Close popup when clicking outside
+document.getElementById('teamPopup').addEventListener('click', function(e) {
+    if (e.target === this) {
+        closePopup();
+    }
+});
+
+// Close popup on Escape key
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+        closePopup();
+    }
+});
 
 
 
