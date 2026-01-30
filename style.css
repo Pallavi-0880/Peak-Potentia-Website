@@ -92,7 +92,7 @@ body {
     z-index: 1000;
     padding: 1rem 0;
 }
-.announcement-bar a{
+.announcement-bar a {
     color: white;
 }
 /* Marquee Container */
@@ -101,6 +101,7 @@ body {
     align-items: center;
     white-space: nowrap;
     animation: scroll-left 30s linear infinite;
+     color: white;
 }
 
 @keyframes scroll-left {
