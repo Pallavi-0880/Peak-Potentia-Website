@@ -92,7 +92,7 @@ body {
     z-index: 1000;
     padding: 1rem 0;
 }
-.announcement-bar a {
+.bar{
     color: white;
 }
 /* Marquee Container */
