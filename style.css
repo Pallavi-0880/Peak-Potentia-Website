@@ -92,7 +92,9 @@ body {
     z-index: 1000;
     padding: 1rem 0;
 }
-
+.announcement-bar a{
+    color: white;
+}
 /* Marquee Container */
 .marquee-container {
     display: flex;
@@ -1386,6 +1388,7 @@ body {
 .story-section {
     display: flex;
     flex-wrap: wrap;
+  
 }
 
 .story-left {
@@ -1480,6 +1483,39 @@ body {
         font-size: 1.4rem;
     }
 }
+
+@media (max-width: 768px) {
+    .story-right {
+        min-width: 100%;
+        margin-top: 10px;
+
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+
+        font-size: 16px;
+        line-height: 1.6;
+
+        border-radius: 20px;
+        min-height: auto;
+
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .story-right {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 1.5rem;
+
+        font-size: 15px;
+        border-radius: 16px;
+    }
+}
+
 
 /* ================= FOOTER SECTION ================= */
 
