@@ -34,6 +34,10 @@ function createDots() {
     }
 }
 
+document.querySelectorAll('.tag').forEach(tag => {
+    tag.style.left = Math.random() * 80 + '%';
+    tag.style.animationDelay = Math.random() * 6 + 's';
+});
 // Update carousel position
 function updateCarousel() {
     const cardWidth = cards[0].offsetWidth;

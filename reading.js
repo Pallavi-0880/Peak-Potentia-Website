@@ -44,7 +44,7 @@ document.addEventListener('click', (e) => {
 });
 
 // Load More Button
-document.querySelector('.btn-load-more').addEventListener('click', () => {
-    console.log('Loading more content...');
-    // Add your load more logic here
-});
+// document.querySelector('.btn-load-more').addEventListener('click', () => {
+//     console.log('Loading more content...');
+//     // Add your load more logic here
+// });
