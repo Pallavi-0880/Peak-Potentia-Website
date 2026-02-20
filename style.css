@@ -92,11 +92,18 @@ body {
     z-index: 1000;
     padding: 1rem 0;
 }
+
 @media (min-width: 768px) {
     .announcement-bar {
         top: 15%;
     }
+
+    .brand-name {
+        font-size: 2.0rem;
+        font-weight: 500;
+    }
 }
+
 .bar {
     color: white;
 }
@@ -194,19 +201,50 @@ body {
     position: relative;
     overflow: hidden;
     min-height: 85vh;
-    background-image: linear-gradient(rgba(245, 241, 237, 0.75), rgba(245, 241, 237, 0.75)),
-        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect fill="%23e8e3dc" width="1200" height="800"/><ellipse cx="400" cy="400" rx="180" ry="350" fill="%23d8d3cc" opacity="0.4"/><ellipse cx="800" cy="400" rx="180" ry="350" fill="%23d8d3cc" opacity="0.4"/></svg>');
-    background-size: cover;
-    background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
 
+.hero-bg-carousel {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background-size: cover;
+    background-position: center;
+    animation: heroBgSlide 18s infinite;
+}
+
+.hero-bg-carousel::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(137, 134, 132, 0.75);
+}
+
+@keyframes heroBgSlide {
+    0% {
+        background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20240914/pngtree-diverse-group-of-students-studying-in-a-library-with-open-books-image_16203293.jpg');
+    }
+
+    33% {
+        background-image: url('https://thumbs.dreamstime.com/b/student-girl-feeling-stressed-exam-secondary-school-holding-head-taking-high-classroom-tired-showing-signs-396367419.jpg');
+    }
+
+    66% {
+        background-image: url('https://images.stockcake.com/public/f/0/6/f06df0a9-588c-45b3-b670-92b498d9b7a1_large/group-study-session-stockcake.jpg');
+    }
+
+    100% {
+        background-image: url('https://ed.stanford.edu/sites/default/files/styles/free_crop_original/public/news/image/shutterstock_1860471418.jpg?itok=4bnasUw0');
+    }
+}
+
 .floating-tags {
     position: absolute;
     inset: 0;
+    z-index: 2;
     pointer-events: none;
 }
 
@@ -282,6 +320,9 @@ body {
 
 
 .hero-content {
+    position: relative;
+    z-index: 3;
+    /* images + overlay se upar */
     max-width: 900px;
     padding: 2rem;
 }
@@ -289,7 +330,7 @@ body {
 .hero-title {
     font-size: 4rem;
     font-weight: 400;
-    color: #2c5a5f;
+    color: white;
     margin-bottom: 1.5rem;
     line-height: 1.2;
     letter-spacing: 0.5px;
@@ -297,7 +338,7 @@ body {
 
 .hero-subtitle {
     font-size: 1.75rem;
-    color: #5a6b6f;
+    color: white;
     font-weight: 300;
     margin-bottom: 3rem;
 }
@@ -1218,7 +1259,7 @@ body {
         min-width: calc(33.333% - 1.5rem);
     }
 
-   
+
 }
 
 @media (max-width: 768px) {

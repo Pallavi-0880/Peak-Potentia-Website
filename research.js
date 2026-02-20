@@ -305,7 +305,56 @@ const papers = [
         category: 'Economics',
         title: 'What strategies can businesses adopt to remain competitive in an increasingly  digital economy?  ',
         author: 'Research Paper By Naisha Sahney',
-        file: './pdf/Research-Paper-Naisha-Sahney._6822ee7d34f35.pdf'
+        file: '../pdf/Research-Paper-Naisha-Sahney._6822ee7d34f35.pdf'
+    },
+    {
+        icon: './pdfImage/image (48).png',
+        category: 'Economics',
+        title: 'What are the determinants of income inequality within and between  countries?   ',
+        author: ' Research Paper By Adrija Dutta',
+        file: '../pdf/Research-Paper-Adrija-Dutta_6821e50b5ec14 (1).pdf'
+    },
+     {
+        icon: './pdfImage/image (49).png',
+        category: 'Economics',
+        title: 'How Do Government Policies Affect Innovation and Technological Adoption in Small and Medium Enterprises  (SMEs)?    ',
+        author: '  Research Paper By Avinash Balakrishnan',
+        file: '../pdf/Research-Paper-By-Avinash-Balakrishnan_6821e9cfcce86.pdf'
+    },
+     {
+        icon: './pdfImage/image (50).png',
+        category: 'Economics',
+        title: 'The Influence of Seasonal Trends on E-commerce Sales- An  Econometric Analysis  ',
+        author: ' Research Paper By Nikhil Pande',
+        file: '../pdf/Research-Paper-Nikhil-Pande_6822ef16bad19.pdf'
+    },
+     {
+        icon: './pdfImage/image (51).png',
+        category: 'Economics',
+        title: 'How do behavioural biases influence asset pricing and the efficiency  of financial markets?   ',
+        author: ' Research Paper By Paridhi Kumar',
+        file: '../pdf/Research-Paper-Paridhi-Kumar_6822efb81cebb.pdf'
+    },
+     {
+        icon: './pdfImage/image (48).png',
+        category: 'Economics',
+        title: 'What are the determinants of income inequality within and between  countries?   ',
+        author: ' Research Paper By Adrija Dutta',
+        file: '../pdf/Research-Paper-Adrija-Dutta_6821e50b5ec14 (1).pdf'
+    },
+     {
+        icon: './pdfImage/image (48).png',
+        category: 'Economics',
+        title: 'What are the determinants of income inequality within and between  countries?   ',
+        author: ' Research Paper By Adrija Dutta',
+        file: '../pdf/Research-Paper-Adrija-Dutta_6821e50b5ec14 (1).pdf'
+    },
+     {
+        icon: './pdfImage/image (48).png',
+        category: 'Economics',
+        title: 'What are the determinants of income inequality within and between  countries?   ',
+        author: ' Research Paper By Adrija Dutta',
+        file: '../pdf/Research-Paper-Adrija-Dutta_6821e50b5ec14 (1).pdf'
     },
 
 
