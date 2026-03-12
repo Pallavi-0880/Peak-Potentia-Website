@@ -392,7 +392,7 @@ function loadPapers(filteredPapers = papers) {
                     <p class="item-writer">${paper.author}</p>
                     <div class="btn-group">
                        <a href="pdfs/${paper.file}" target="_blank" class="btn btn-view">👁️ View</a>
-                       <a href="pdfs/${paper.file}" download class="btn btn-download">⬇️ Download</a>
+                       
                     </div>
                 </div>
             </div>
