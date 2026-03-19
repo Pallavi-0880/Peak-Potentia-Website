@@ -314,51 +314,245 @@ const papers = [
         author: ' Research Paper By Adrija Dutta',
         file: '../pdf/Research-Paper-Adrija-Dutta_6821e50b5ec14 (1).pdf'
     },
-     {
+    {
         icon: './pdfImage/image (49).png',
         category: 'Economics',
         title: 'How Do Government Policies Affect Innovation and Technological Adoption in Small and Medium Enterprises  (SMEs)?    ',
         author: '  Research Paper By Avinash Balakrishnan',
         file: '../pdf/Research-Paper-By-Avinash-Balakrishnan_6821e9cfcce86.pdf'
     },
-     {
+    {
         icon: './pdfImage/image (50).png',
         category: 'Economics',
         title: 'The Influence of Seasonal Trends on E-commerce Sales- An  Econometric Analysis  ',
         author: ' Research Paper By Nikhil Pande',
         file: '../pdf/Research-Paper-Nikhil-Pande_6822ef16bad19.pdf'
     },
-     {
+    {
         icon: './pdfImage/image (51).png',
         category: 'Economics',
         title: 'How do behavioural biases influence asset pricing and the efficiency  of financial markets?   ',
         author: ' Research Paper By Paridhi Kumar',
         file: '../pdf/Research-Paper-Paridhi-Kumar_6822efb81cebb.pdf'
     },
-    //  {
-    //     icon: './pdfImage/image (48).png',
-    //     category: 'Economics',
-    //     title: 'What are the determinants of income inequality within and between  countries?   ',
-    //     author: ' Research Paper By Adrija Dutta',
-    //     file: '../pdf/Research-Paper-Adrija-Dutta_6821e50b5ec14 (1).pdf'
-    // },
-    //  {
-    //     icon: './pdfImage/image (48).png',
-    //     category: 'Economics',
-    //     title: 'What are the determinants of income inequality within and between  countries?   ',
-    //     author: ' Research Paper By Adrija Dutta',
-    //     file: '../pdf/Research-Paper-Adrija-Dutta_6821e50b5ec14 (1).pdf'
-    // },
-    //  {
-    //     icon: './pdfImage/image (48).png',
-    //     category: 'Economics',
-    //     title: 'What are the determinants of income inequality within and between  countries?   ',
-    //     author: ' Research Paper By Adrija Dutta',
-    //     file: '../pdf/Research-Paper-Adrija-Dutta_6821e50b5ec14 (1).pdf'
-    // },
-
-
-];
+    {
+        icon: './pdfImage/image (53).png',
+        category: 'Economics',
+        title: 'Assessing the role of SUMUL in furthering Human Development in Surat and Tapi',
+        author: ' Research Paper By Aadya Jain',
+        file: '../pdf/Research Paper By Aadya Jain (1) (3).pdf'
+    },
+    {
+        icon: './pdfImage/image (54).png',
+        category: 'Economics',
+        title: 'What is the estimated economic cost of menopause-related productivity loss in the female workforce, and how does it vary across industries?',
+        author: ' Research Paper By Aadya Shakti Aggarwal',
+        file: '../pdf/Research Paper By Aadya Shakti Aggarwal.pdf'
+    },
+    {
+        icon: './pdfImage/image (55).png',
+        category: 'Economics',
+        title: 'What is the impact of protectionist trade policies on innovation and productivity growth? ',
+        author: ' Research Paper By Aamalia Khandelwal',
+        file: '../pdf/Research Paper By Aamalia Khandelwal.pdf'
+    },
+    {
+        icon: './pdfImage/image (56).png',
+        category: 'Economics',
+        title: 'To What Extent Does Portfolio Diversification Reduce Systemic Risk During Global Financial Crises?',
+        author: ' Research Paper By Aaminah Patel',
+        file: '../pdf/Research Paper By Aaminah Patel (1).pdf'
+    },
+    {
+        icon: './pdfImage/image (57).png',
+        category: 'Economics',
+        title: 'Rational Choices, Irrational Outcomes: Individually Optimal Decisions and Systemic Fragility in the 2008 Financial Crisis ?',
+        author: ' Research Paper By Aanya Bayana',
+        file: '../pdf/Research Paper By Aanya Bayana (1).pdf'
+    },
+    {
+        icon: './pdfImage/image (58).png',
+        category: 'Economics',
+        title: 'What are the barriers that limit the utilization of central and state government schemes among rural women entrepreneurs in Telangana, and how do these barriers differ by education, caste, or income level ?',
+        author: ' Research Paper By Aanya Gouravaram',
+        file: '../pdf/Research Paper By Aanya Gouravaram (4).pdf'
+    },
+    {
+        icon: './pdfImage/image (59).png',
+        category: 'Economics',
+        title: 'How do default options and interface design impact consumer choices on financial apps and investment platforms?',
+        author: ' Research Paper By Aanya Rajgarhia',
+        file: '../pdf/Research Paper By Aanya Rajgarhia.pdf'
+    },
+    {
+        icon: './pdfImage/image (60).png',
+        category: 'Economics',
+        title: 'How did Cold War geopolitical alignment affect the economic growth trajectories of non-aligned countries?',
+        author: ' Research Paper By Aarav Goyal',
+        file: '../pdf/Research Paper By Aarav Goyal (1).pdf'
+    },
+    {
+        icon: './pdfImage/image (61).png',
+        category: 'Economics',
+        title: 'To what extent does the market concentration of large asset managers (e.g., BlackRock, Vanguard) pose systemic risks to global financial markets?',
+        author: ' Research Paper By Aarav Jhaveri',
+        file: '../pdf/Research Paper By Aarav Jhaveri (1).pdf'
+    },
+    {
+        icon: './pdfImage/image (62).png',
+        category: 'Economics',
+        title: 'How do price changes affect household consumption patterns across income groups in India?',
+        author: ' Research Paper By Aarush Kapur',
+        file: '../pdf/Research Paper By Aarush Kapur.pdf'
+    },
+    {
+        icon: './pdfImage/image (63).png',
+        category: 'Economics',
+        title: 'How effective are carbon pricing mechanisms (carbon taxes vs.cap-and-trade) in reducing CO2 emissions across OECD countries?',
+        author: ' Research Paper By Aayan Chopra',
+        file: '../pdf/Research Paper By Aayan Chopra (1).pdf'
+    },
+    {
+        icon: './pdfImage/image (64).png',
+        category: 'Economics',
+        title: 'To what extent does the World Trade Organization still serve the interests of developing economies?',
+        author: ' Research Paper By Adarsh Prusti',
+        file: '../pdf/Research Paper By Adarsh Prusti (1).pdf'
+    },
+    {
+        icon: './pdfImage/image (65).png',
+        category: 'Economics',
+        title: 'What Role Does Manufacturing-Led Industrialization Play in Reducing Regional Development Disparities within Karnataka?',
+        author: ' Research Paper By Aditri Shetty',
+        file: '../pdf/Research Paper By Aditri Shetty (1).pdf'
+    },
+    {
+        icon: './pdfImage/image (66).png',
+        category: 'Economics',
+        title: 'How do alternative stock return measurement approaches differ in reflecting actual investor performance over time, and how might mismeasurement influence investor decision-making?',
+        author: ' Research Paper By Agastya Kapur',
+        file: '../pdf/Research Paper By Agastya Kapur.pdf'
+    },
+    {
+        icon: './pdfImage/image (67).png',
+        category: 'Economics',
+        title: 'How effective is federated learning at handling real-world data differences compared to centralized AI training?',
+        author: ' Research Paper By Ahaan Gupta',
+        file: '../pdf/Research Paper By Ahaan Gupta (1).pdf'
+    },
+    {
+        icon: './pdfImage/image (68).png',
+        category: 'Economics',
+        title: 'How do inflation-control strategies from the 1970s oil shock compare with central bank responses to post-pandemic inflation in the 2020s?',
+        author: ' Research Paper By Aisshaaria Gupta',
+        file: '../pdf/Research Paper By Aisshaaria Gupta (1).pdf'
+    },
+    {
+        icon: './pdfImage/image (69).png',
+        category: 'Economics',
+        title: 'The Rise of Passive Investing: Its Long-Term Impact on Market Efficiency and Corporate Governance?',
+        author: ' Research Paper By Akshat Maheshwari',
+        file: '../pdf/Research Paper By Akshat Maheshwari (1).pdf'
+    },
+    {
+        icon: './pdfImage/image (70).png',
+        category: 'Economics',
+        title: 'Does hosting a mega-event like the Olympics or FIFAWorld Cup significantly alter the trajectory of a country’s revenue trends when controlled for regional and global economic factors?',
+        author: ' Research Paper By Amishi Sureka',
+        file: '../pdf/Research Paper By Amishi Sureka. (1).pdf'
+    },
+    {
+        icon: './pdfImage/image (71).png',
+        category: 'Economics',
+        title: 'To what extent do supply chain inefficiencies affect the quality,shelf life, and market competitiveness of agricultural produce in Punjab, and what role can cold storage and logistics infrastructure play in addressing these challenges?',
+        author: ' Research Paper By Amrit Jolly',
+        file: '../pdf/Research Paper By Amrit Jolly.pdf'
+    },
+    {
+        icon: './pdfImage/image (72).png',
+        category: 'Economics',
+        title: 'How do foreign direct investments (FDIs) contribute to sustainable economic growth in developing economies?',
+        author: ' Research Paper By Ananya Dhull',
+        file: '../pdf/Research Paper By Ananya Dhull (1).pdf'
+    },
+    {
+        icon: './pdfImage/image (73).png',
+        category: 'Economics',
+        title: 'To what extent do ambiguous regulations and rules impede the economic benefits derived from adventure sports activities in small regional economies?',
+        author: 'Research Paper By Angad Brar',
+        file: '../pdf/Research paper by Angad Brar(4).pdf'
+    },
+    {
+        icon: './pdfImage/image (74).png',
+        category: 'Economics',
+        title: 'How Have Central Bank Interest Rate Policies After COVID-19 Affected Stock Market Volatility in Emerging and Developed Economies?',
+        author: 'Research Paper By Araash Bhargava',
+        file: '../pdf/Research Paper By Araash Bhargava.pdf'
+    },
+    {
+        icon: './pdfImage/image (75).png',
+        category: 'Economics',
+        title: 'How do multinational firms balance marketing localization with financial efficiency when entering emerging markets?',
+        author: 'Research Paper By Aradhyaa Jain',
+        file: '../pdf/Research Paper By Aradhyaa Jain.pdf'
+    },
+    {
+        icon: './pdfImage/image (76).png',
+        category: 'Economics',
+        title: 'Fixing the Fiscal in France: The Cause and Consequences of Reforms in Fiscal Policies and Taxation (1789-1814)',
+        author: 'Research Paper By Arav Talwar',
+        file: '../pdf/Research Paper By Arav Talwar (1).pdf'
+    },
+    {
+        icon: './pdfImage/image (77).png',
+        category: 'Economics',
+        title: 'What economic policies were most influential in shaping the voting decisions of first-time voters in Saharanpur?',
+        author: 'Research Paper By Arish Talwar',
+        file: '../pdf/Research Paper By Arish Talwar.pdf'
+    },
+    {
+        icon: './pdfImage/image (78).png',
+        category: 'Economics',
+        title: 'What is the long-term effect of inflation targeting on GDP growth in emerging economies?',
+        author: 'Research Paper By Arnav Agarwal',
+        file: '../pdf/Research Paper By Arnav Agarwal.pdf'
+    },
+    {
+        icon: './pdfImage/image (79).png',
+        category: 'Economics',
+        title: 'How do ESG-focused investment strategies affect portfolio risk-return trade-offs compared to conventional asset allocation?',
+        author: 'Research Paper By Arshia Dargan',
+        file: '../pdf/Research Paper By Arshia Dargan..pdf'
+    },
+    {
+        icon: './pdfImage/image (80).png',
+        category: 'Economics',
+        title: 'To what extent does the integration of offshoring strategies with efficient freight infrastructure and digital customs platforms shape export diversification and market access for developing nations?',
+        author: 'Research Paper By Aryaveer Mago',
+        file: '../pdf/Research Paper By Aryaveer Mago.pdf'
+    },
+      {
+        icon: './pdfImage/image (81).png',
+        category: 'Economics',
+        title: 'How have disruptions in global grain supply (due to the Ukraine conflict)influenced food price inflation and food security in Sub-Saharan Africa and South Asia?',
+        author: 'Research Paper By Avandeeta Dewan',
+        file: '../pdf/Research Paper By Avandeeta Dewan.pdf'
+    },
+     {
+        icon: './pdfImage/image (82).png',
+        category: 'Economics',
+        title: 'How do different types of nudges (e.g., defaults, incentives, social norms) impact decision-making in various contexts such as health, finance, and environmental sustainability?',
+        author: 'Research Paper By Aveer Kumar',
+        file: '../pdf/Research Paper By Aveer Kumar.pdf'
+    },
+     {
+        icon: './pdfImage/image (83).png',
+        category: 'Economics',
+        title: 'How has Hindi cinema across decades reflected and shaped the shifting social choices on issues like feminism, environmentalism and nationalism?',
+        author: 'Research Paper By Aveer Mahajan',
+        file: '../pdf/Research Paper By Aveer Mahajan.pdf'
+    },
+]
 
 // ================================
 // YE CODE TOUCH MAT KARO
