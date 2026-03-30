@@ -531,26 +531,474 @@ const papers = [
         author: 'Research Paper By Aryaveer Mago',
         file: '../pdf/Research Paper By Aryaveer Mago.pdf'
     },
-      {
+    {
         icon: './pdfImage/image (81).png',
         category: 'Economics',
         title: 'How have disruptions in global grain supply (due to the Ukraine conflict)influenced food price inflation and food security in Sub-Saharan Africa and South Asia?',
         author: 'Research Paper By Avandeeta Dewan',
         file: '../pdf/Research Paper By Avandeeta Dewan.pdf'
     },
-     {
+    {
         icon: './pdfImage/image (82).png',
         category: 'Economics',
         title: 'How do different types of nudges (e.g., defaults, incentives, social norms) impact decision-making in various contexts such as health, finance, and environmental sustainability?',
         author: 'Research Paper By Aveer Kumar',
         file: '../pdf/Research Paper By Aveer Kumar.pdf'
     },
-     {
+    {
         icon: './pdfImage/image (83).png',
         category: 'Economics',
         title: 'How has Hindi cinema across decades reflected and shaped the shifting social choices on issues like feminism, environmentalism and nationalism?',
         author: 'Research Paper By Aveer Mahajan',
         file: '../pdf/Research Paper By Aveer Mahajan.pdf'
+    },
+    {
+        icon: './pdfImage/image (84).png',
+        category: 'Economics',
+        title: 'How do macroeconomic indicators influence stock market returns in emerging economies?',
+        author: 'Research Paper By Ayaan Shanker',
+        file: '../pdf/Research Paper By Ayaan Shanker (3).pdf'
+    },
+    {
+        icon: './pdfImage/image (85).png',
+        category: 'Economics',
+        title: 'How does the use of morphing wing technologies impact aerodynamic efficiency during various flight phases (takeoff, cruise, landing)?',
+        author: 'Research Paper By Ayush Vohra',
+        file: '../pdf/Research Paper By Ayush Vohra (2).pdf'
+    },
+    {
+        icon: './pdfImage/image (86).png',
+        category: 'Economics',
+        title: 'How does cause-based marketing (e.g., supporting mental health or body positivity) affect consumer attachment to fitness brands?',
+        author: 'Research Paper By Cherissa Bhanushali',
+        file: '../pdf/Research Paper By Cherissa Bhanushali (1).pdf'
+    },
+    {
+        icon: './pdfImage/image (87).png',
+        category: 'Economics',
+        title: 'How do Algorithmic trading strategies affect price discovery and volatility in emerging market equity markets?',
+        author: 'Research Paper By Daksh Agrawal',
+        file: '../pdf/Research Paper By Daksh Agrawal (2).pdf'
+    },
+    {
+        icon: './pdfImage/image (88).png',
+        category: 'Economics',
+        title: 'The Impact of Healthcare Subsidies on Health Outcomes and Labor Productivity in Low-Income Populations',
+        author: 'Research Paper By Devaditya Joshi',
+        file: '../pdf/Research Paper By Devaditya Joshi.pdf'
+    },
+    {
+        icon: './pdfImage/image (89).png',
+        category: 'Economics',
+        title: 'Optimizing Supply Chain Efficiency in Manufacturing Industries: A Case Study of Emami',
+        author: 'Research Paper By Devarsh Goenka',
+        file: '../pdf/Research Paper By Devarsh Goenka.pdf'
+    },
+    {
+        icon: './pdfImage/image (90).png',
+        category: 'Economics',
+        title: 'How has digital banking reshaped consumer trust in financial institutions?',
+        author: 'Research Paper By Dhanishita Kumar',
+        file: '../pdf/Research Paper By Dhanishita Kumar (1).pdf'
+    },
+    {
+        icon: './pdfImage/image (91).png',
+        category: 'Economics',
+        title: 'How do manufacturing firms evaluate the financial trade-offs of investing in automation and digital technologies?',
+        author: 'Research Paper By Diya Bansal',
+        file: '../pdf/Research Paper By Diya Bansal.pdf'
+    },
+    {
+        icon: './pdfImage/image (92).png',
+        category: 'Economics',
+        title: 'To what extent do over-the-counter testosterone boosters and protein supplements influence hormonal balance, metabolic markers, and athletic performance in young athletes?',
+        author: 'Research Paper By Diya Karthik',
+        file: '../pdf/Research Paper By Diya Karthik (2).pdf'
+    },
+    {
+        icon: './pdfImage/image (93).png',
+        category: 'Economics',
+        title: 'What is the economic viability of modular construction in high-density housing projects?',
+        author: 'Research Paper By Hasan Onallah',
+        file: '../pdf/Research Paper By Hasan Onallah 2nd.pdf'
+    },
+    {
+        icon: './pdfImage/image (94).png',
+        category: 'Economics',
+        title: 'How do modular prefabricated structures made of sustainable materials (e.g., cross-laminated timber panels, 3D-printed recycled plastics) alter the stress distribution and structural stability of residential housing?',
+        author: 'Research Paper By Hasan Onallah',
+        file: '../pdf/Research Paper By Hasan Onallah.pdf'
+    },
+    {
+        icon: './pdfImage/image (95).png',
+        category: 'Economics',
+        title: 'How does access to microfinance influence key growth indicators such as revenue generation, employment creation, and business sustainability among rural small enterprises in India?',
+        author: 'Research Paper By Hersh Dugar',
+        file: '../pdf/Research Paper By Hersh Dugar.pdf'
+    },
+    {
+        icon: './pdfImage/image (96).png',
+        category: 'Economics',
+        title: 'How are quantum principles used in GPS systems and atomic clocks to achieve high precision?',
+        author: 'Research Paper By Ishan Jain',
+        file: '../pdf/Research Paper By Ishan Jain (1).pdf'
+    },
+    {
+        icon: './pdfImage/image (97).png',
+        category: 'Economics',
+        title: 'To what extent do ESG (environmental, social, and governance) disclosures affect investor behavior in global financial markets?',
+        author: 'Research Paper By Ishita Bharadia',
+        file: '../pdf/Research Paper By Ishita Bharadia (1).pdf'
+    },
+    {
+        icon: './pdfImage/image (98).png',
+        category: 'Economics',
+        title: 'Appreciation and Admonitions amongst Consumers towards AI Generated Content and Human Centric Marketing as Advertising Strategies: Finding a Middle Path?',
+        author: 'Research Paper By Kahaan Juthani',
+        file: '../pdf/Research Paper By Kahaan Juthani.pdf'
+    },
+    {
+        icon: './pdfImage/image (99).png',
+        category: 'Economics',
+        title: 'How can mathematical modeling and economic theory be used to predict and manage the impact of generative AI on labor market dynamics in emerging economies?',
+        author: 'Research Paper By Kaira Puri',
+        file: '../pdf/Research Paper By Kaira Puri (1).pdf'
+    },
+    {
+        icon: './pdfImage/image (100).png',
+        category: 'Economics',
+        title: 'How has the introduction of digital financial products (e.g., mobile wallets, robo-advisors, fintech investment apps) altered portfolio preferences and savings rates in emerging markets?',
+        author: 'Research Paper By Krishang Garg',
+        file: '..pdf/Research paper by Krishang Garg (1).pdf'
+    },
+    {
+        icon: './pdfImage/image (101).png',
+        category: 'Economics',
+        title: 'What are the barriers to accessing veterinary healthcare among marginalized livestock farmers, and how do these impact herd health and household resilience?',
+        author: 'Research Paper By Manori Labh',
+        file: '..pdf/pdf/Research Paper by Manori Labh (2).pdf'
+    },
+    {
+        icon: './pdfImage/image (102).png',
+        category: 'Economics',
+        title: 'How can branding and value-based marketing improve customer loyalty in B2B precision tool manufacturing firms?',
+        author: 'Research Paper By Medhansh Singal',
+        file: '..pdf/pdf/Research Paper By Medhansh Singal.pdf'
+    },
+    {
+        icon: './pdfImage/image (103).png',
+        category: 'Economics',
+        title: 'What are the barriers to accessing veterinary healthcare among marginalized livestock farmers, and how do these impact herd health and household resilience?',
+        author: 'Research Paper By Mrinal Labh',
+        file: '..pdf/pdf/Research Paper by Mrinal Labh.pdf'
+    },
+    {
+        icon: './pdfImage/image (104).png',
+        category: 'Economics',
+        title: 'How Are Geopolitical Tensions Affecting Global Stock Market Volatility',
+        author: 'Research Paper By Naysa Singhal',
+        file: '..pdf/pdf/Research Paper By Naysa Singhal (2).pdf'
+    },
+    {
+        icon: './pdfImage/image (105).png',
+        category: 'Economics',
+        title: 'How can data science models evaluate the effectiveness of government subsidies or carbon tax policies on energy consumption patterns?',
+        author: 'Research Paper By Neil Mehra',
+        file: '..pdf/pdf/Research Paper By Neil Mehra (3).pdf'
+    },
+    {
+        icon: './pdfImage/image (106).png',
+        category: 'Economics',
+        title: 'The Cost-Benefit Analysis and Life-Cycle Assessment of the Transition towards Electric Vehicles across State, Market and Civil Society',
+        author: 'Research Paper By Niharika Dujodwala',
+        file: '..pdf/pdf/Research Paper By Niharika Dujodwala.pdf'
+    },
+    {
+        icon: './pdfImage/image (106).png',
+        category: 'Economics',
+        title: 'How does urban migration influence real estate demand and informal housing growth?',
+        author: 'Research Paper By Nivaan Shah',
+        file: '..pdf/pdf/Research Paper By Nivaan Shaah (1).pdf'
+    },
+    {
+        icon: './pdfImage/image (108).png',
+        category: 'Economics',
+        title: 'How rapidly do stock prices adjust to firm-specific information such as earnings announcements or dividend declarations?',
+        author: 'Research Paper By Paarth Sharma',
+        file: '..pdf/pdf/Research Paper By Paarth Sharma.pdf'
+    },
+    {
+        icon: './pdfImage/image (109).png',
+        category: 'Economics',
+        title: 'What are the cellular mechanisms through which hyaluronic acid-based treatments improve skin hydration and elasticity?',
+        author: 'Research Paper By Parissa Luthra',
+        file: '..pdf/pdf/Research Paper By Parissa Luthra1 (1).pdf'
+    },
+    {
+        icon: './pdfImage/image (110).png',
+        category: 'Economics',
+        title: 'To what extent do AI-powered recommendation engines affect consumer brand switching behavior?',
+        author: 'Research Paper By Parth Choudhary',
+        file: '..pdf/pdf/Research Paper By Parth Choudhary.pdf'
+    },
+    {
+        icon: './pdfImage/image (111).png',
+        category: 'Economics',
+        title: 'To what extent does digital education contribute to long-term human capital formation and economic development globally?',
+        author: 'Research Paper By Parthvi Kandoi',
+        file: '..pdf/pdf/Research Paper By Parthvi Kandoi (3).pdf'
+    },
+    {
+        icon: './pdfImage/image (112).png',
+        category: 'Economics',
+        title: 'How has the adoption of UPI (Unified Payments Interface) driven growth in India’s retail trade volume?',
+        author: 'Research Paper By Pranay Jain',
+        file: '..pdf/pdf/Research Paper by Pranay Jain.pdf'
+    },
+    {
+        icon: './pdfImage/image (113).png',
+        category: 'Economics',
+        title: 'How are fintech innovations like AI-based trading platforms and digital wallets reshaping consumer behaviour and traditional banking models?',
+        author: 'Research Paper By Prisha Shah',
+        file: '..pdf/pdf/Research Paper By Prisha Shah..pdf'
+    },
+    {
+        icon: './pdfImage/image (114).png',
+        category: 'Economics',
+        title: 'How do the effluent treatment plant (ETP) practices of Agro Keventer compare with those of Amul in terms of environmental compliance, operational efficiency, and sustainability outcomes?',
+        author: 'Research Paper By Rakshit Kapoor',
+        file: '..pdf/pdf/Research Paper By Rakshit Kapoor 2.pdf'
+    },
+    {
+        icon: './pdfImage/image (115).png',
+        category: 'Economics',
+        title: 'How has the need for ISI certification influenced the adoption of modern food processing technologies and automated quality checks in Indian factories?',
+        author: 'Research Paper By Rakshit Kapoor',
+        file: '..pdf/pdf/Research Paper By Rakshit Kapoor.pdf'
+    },
+    {
+        icon: './pdfImage/image (116).png',
+        category: 'Economics',
+        title: 'Does AI adoption enhance productivity without proportionately increasing employment in the formal sector? A comparative study of the USA and India.',
+        author: 'Research Paper By Ranvirr Pardasani',
+        file: '..pdf/pdf/Research Paper By Ranvirr Pardasani (1).pdf'
+    },
+    {
+        icon: './pdfImage/image (117).png',
+        category: 'Economics',
+        title: 'What is the economic impact of transitioning to renewable energy in emerging economies?',
+        author: 'Research Paper By Ranyah Kapoor',
+        file: '..pdf/pdf/Research Paper By Ranyah Kapoor..pdf'
+    },
+    {
+        icon: './pdfImage/image (118).png',
+        category: 'Economics',
+        title: 'What ethical dilemmas arise when balancing equality of opportunity with meritocracy in educational and employment settings?',
+        author: 'Research Paper By Reet Bhatia',
+        file: '..pdf/pdf/Research Paper By Reet Bhatia (3).pdf'
+    },
+    {
+        icon: './pdfImage/image (119).png',
+        category: 'Economics',
+        title: 'To what extent can drone-based 3D mapping improve efficiency in urban infrastructure planning and development?',
+        author: 'Research Paper By Rihit Wadhwa',
+        file: '..pdf/pdf/Research Paper By Rihit Wadhwa.pdf'
+    },
+    {
+        icon: './pdfImage/image (120).png',
+        category: 'Economics',
+        title: 'How do state-level labor policies vary in their treatment and support of informal and gig workers in India?',
+        author: 'Research Paper By Rishan Parekh',
+        file: '..pdf/pdf/Research Paper By Rishan Parekh.pdf'
+    },
+    {
+        icon: './pdfImage/image (121).png',
+        category: 'Economics',
+        title: 'What psychological factors influence gamers’ decisions to download third-party algorithms for video games?',
+        author: 'Research Paper By Rohan Verma',
+        file: '..pdf/pdf/Research Paper By Rohan Verma (1).pdf'
+    },
+    {
+        icon: './pdfImage/image (122).png',
+        category: 'Economics',
+        title: 'What is the long-term impact of inflation targeting on GDP growth in emerging economies?',
+        author: 'Research Paper By Rubi Ray',
+        file: '..pdf/pdf/Research Paper By Rubi Ray (1).pdf'
+    },
+    {
+        icon: './pdfImage/image (123).png',
+        category: 'Economics',
+        title: 'To what extent are consumers shifting from established luxury labels to emerging fashion brands, and what factors (price sensitivity, sustainability concerns, digital influence, or identity expression) are driving this transition?',
+        author: 'Research Paper By Sagan Aggarwal',
+        file: '..pdf/pdf/Research Paper By Sagan Aggarwal (1).pdf'
+    },
+    {
+        icon: './pdfImage/image (124).png',
+        category: 'Economics',
+        title: 'In what ways do digital capitalism and influencer culture amplify neoliberal patriarchal dynamics by monetizing feminist expression and activism?',
+        author: 'Research Paper By Samaira Charles',
+        file: '..pdf/pdf/Research Paper By Samaira Charles.pdf'
+    },
+    {
+        icon: './pdfImage/image (125).png',
+        category: 'Economics',
+        title: 'How Does Sentiment Analysis of Product Reviews Impact the Perceived Trust and Purchase Intention of Sustainable Beauty Products?',
+        author: 'Research Paper By Sanah Sehgal',
+        file: '..pdf/pdf/Research Paper By Sanah Sehgal.pdf'
+    },
+    {
+        icon: './pdfImage/image (126).png',
+        category: 'Economics',
+        title: 'To What Extent Does AI-Driven Personalization Increase Brand Loyalty Among Digital Consumers?',
+        author: 'Research Paper By Shaurya Prakash Roongta',
+        file: '..pdf/pdf/Research Paper By Shaurya Prakash Roongta. (1) (1).pdf'
+    },
+    {
+        icon: './pdfImage/image (127).png',
+        category: 'Economics',
+        title: 'What are the effects of influencer marketing on consumer trust and purchasing decisions in global e-commerce?',
+        author: 'Research Paper By Shlok Sethia',
+        file: '..pdf/pdf/Research Paper By Shlok Sethia(2).pdf'
+    },
+    {
+        icon: './pdfImage/image (128).png',
+        category: 'Economics',
+        title: 'What is the role of the prefrontal cortex in mediating rational vs.emotional consumer choices?',
+        author: 'Research Paper By Shreeya Rajgarhia',
+        file: '..pdf/pdf/Research Paper By Shreeya Rajgarhia.pdf'
+    },
+    {
+        icon: './pdfImage/image (129).png',
+        category: 'Economics',
+        title: 'How can integrating Charkha-based cottage industries into modern supply chains promote Gandhian self-sufficiency by generating labour-intensive rural employment, enhancing income stability, and empowering marginalized groups in India?',
+        author: 'Research Paper By Sidhharth Pable',
+        file: '..pdf/pdf/Research Paper By Sidhharth Pable (1).pdf'
+    },
+    {
+        icon: './pdfImage/image (130).png',
+        category: 'Economics',
+        title: 'How do perceptions of Minimum Support Price (MSP) influence crop choices and risk behaviour among farmers in northern India?',
+        author: 'Research Paper By Smera Manoj Thakkar',
+        file: '..pdf/pdf/Research Paper By Smera Manoj Thakkar.pdf'
+    },
+    {
+        icon: './pdfImage/image (131).png',
+        category: 'Economics',
+        title: 'To What Extent are National Education Policies Aligning with Global Sustainable Development Goal 4?',
+        author: 'Research Paper By Swara Trivedi',
+        file: '..pdf/pdf/Research paper by Swara Trivedi (3).pdf'
+    },
+    {
+        icon: './pdfImage/image (132).png',
+        category: 'Economics',
+        title: 'How do government subsidies for clean energy affect household energy choices in low-income regions?',
+        author: 'Research Paper By Terese Muhebwa',
+        file: '..pdf/pdf/Research Paper By Terese Muhebwa (1).pdf'
+    },
+    {
+        icon: './pdfImage/image (133).png',
+        category: 'Economics',
+        title: 'How resilient are financial markets to geopolitical shocks (e.g., Russia–Ukraine war, U.S.–China tensions) compared to past crises?',
+        author: 'Research Paper By Udayveer Singh Tomar',
+        file: '..pdf/pdf/Research Paper By Udayveer Singh Tomar.pdf'
+    },
+    {
+        icon: './pdfImage/image (134).png',
+        category: 'Economics',
+        title: 'How Have Advancements in Machine Learning Impacted the Predictive Accuracy of Asset Pricing Models?',
+        author: 'Research Paper By Veer Bhatia',
+        file: '..pdf/pdf/Research Paper By Veer Bhatia (2).pdf'
+    },
+    {
+        icon: './pdfImage/image (135).png',
+        category: 'Economics',
+        title: 'How has ESG investing reshaped portfolio performance and risk-return tradeoffs in the post-pandemic era?',
+        author: 'Research Paper By Vibhav Sethu',
+        file: '..pdf/pdf/Research Paper By Vibhav Sethu (1).pdf'
+    },
+    {
+        icon: './pdfImage/image (136).png',
+        category: 'Economics',
+        title: 'To what extent does housing finance drive household wealth creation and intergenerational asset transfer?',
+        author: 'Research Paper By Vikkraman Jatia',
+        file: '..pdf/pdf/Research Paper By Vikkraman Jatia.pdf'
+    },
+    {
+        icon: './pdfImage/image (137).png',
+        category: 'Economics',
+        title: 'Can blockchain-enabled tokenization of property ownership create more liquidity in real estate markets?',
+        author: 'Research Paper By Viraj Jain',
+        file: '..pdf/pdf/Research Paper By Viraj Jain (1).pdf'
+    },
+    {
+        icon: './pdfImage/image (138).png',
+        category: 'Economics',
+        title: 'How have advancements in AI and machine learning transformed asset allocation and risk assessment strategies in portfolio management?',
+        author: 'Research Paper By Vivaan Aneja',
+        file: '..pdf/pdf/Research Paper By Vivaan Aneja..pdf'
+    },
+    {
+        icon: './pdfImage/image (139).png',
+        category: 'Economics',
+        title: 'How can game-theoretic models explain optimal move selection in mid-game scenarios under uncertainty?',
+        author: 'Research Paper By Vivaan Rana',
+        file: '..pdf/pdf/Research Paper By Vivaan Rana.pdf'
+    },
+    {
+        icon: './pdfImage/image (140).png',
+        category: 'Economics',
+        title: 'Can sustainability-driven innovation create competitive advantages that lead to superior financial performance?',
+        author: 'Research Paper By Vivana Contractor',
+        file: '..pdf/pdf/Research Paper By Vivana Contractor (2).pdf'
+    },
+    {
+        icon: './pdfImage/image (141).png',
+        category: 'Economics',
+        title: 'Is a standardized global nutritional index an effective tool for measuring and addressing malnutrition across countries with diverse socio-economic and cultural contexts?',
+        author: 'Research Paper By Yaj Pradeep Parameswaran',
+        file: '..pdf/pdf/Research Paper By Yaj Pradeep Parameswaran.pdf'
+    },
+    {
+        icon: './pdfImage/image (142).png',
+        category: 'Economics',
+        title: 'To what extent does pH variation influence the antimicrobial efficacy of natural preservatives (e.g., neem extract, rosemary oil) compared to synthetic preservatives (e.g., sodium benzoate, parabens)?',
+        author: 'Research Paper By Yashasavini Arora',
+        file: '..pdf/pdf/Research Paper By Yashasavini Arora (3).pdf'
+    },
+    {
+        icon: './pdfImage/image (143).png',
+        category: 'Economics',
+        title: 'How do online real estate broker systems influence market efficiency, buyer behavior, and the role of traditional intermediaries in the housing sector, and what policy measures can enhance their effectiveness while ensuring transparency and consumer protection?',
+        author: 'Research Paper By Yuavan Khubchandani',
+        file: '..pdf/pdf/Research Paper By Yuavan Khubchandani.pdf'
+    },
+    {
+        icon: './pdfImage/image (144).png',
+        category: 'Economics',
+        title: 'How has the affordability of Parsi Baugs influenced patterns of community living, cultural preservation, and socio-economic diversity within the Parsi population of Mumbai?',
+        author: 'Research Paper By Zaha Irani',
+        file: '..pdf/pdf/Research Paper By Zaha Irani (1).pdf'
+    },
+    {
+        icon: './pdfImage/image (145).png',
+        category: 'Economics',
+        title: 'The Workings of a Co-operative Bank and its Role in Real Estate Finance & Development — A Case Study on Zoroastrian Bank',
+        author: 'Research Paper By Zaha Irani',
+        file: '..pdf/pdf/Research Paper By Zaha Irani 2.pdf'
+    },
+    {
+        icon: './pdfImage/image (146).png',
+        category: 'Economics',
+        title: 'How Does Minimal or ‘Silent’ Branding in Luxury Fashion Influence Consumer Perceptions of Exclusivity, and What Are the Economic Effects of This Strategy on Brand Equity?',
+        author: 'Research Paper By Zara Seth',
+        file: '..pdf/pdf/Research Paper By Zara Seth (5).pdf'
+    },
+    {
+        icon: './pdfImage/image (147).png',
+        category: 'Economics',
+        title: 'Understanding the operations of steam boilers and making recommendations for optimizing them towards sustainability measures & waste reduction.',
+        author: 'Research Project By Avnee Gehlot',
+        file: '..pdf/pdf/Research Project By Avnee Gehlot.pdf'
     },
 ]
 
