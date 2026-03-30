@@ -998,7 +998,7 @@ const papers = [
         category: 'Economics',
         title: 'Understanding the operations of steam boilers and making recommendations for optimizing them towards sustainability measures & waste reduction.',
         author: 'Research Project By Avnee Gehlot',
-        file: '..pdf/pdf/Research Project By Avnee Gehlot.pdf'
+        file: '../pdf/Research Project By Avnee Gehlot.pdf'
     },
 ]
 
