@@ -1000,6 +1000,34 @@ const papers = [
         author: 'Research Project By Avnee Gehlot',
         file: '../pdf/Research Project By Avnee Gehlot.pdf'
     },
+      {
+        icon: './pdfImage/image (148).png',
+        category: 'Economics',
+        title: 'Does Higher HDI Strengthen the Impact of Government Financial Inclusion Schemes on Consumption Behaviour?',
+        author: 'Research Project By Sanya Sharma',
+        file: '../pdf/Sanya Sharma Research Paper. (1).pdf'
+    },
+      {
+        icon: './pdfImage/image (149).png',
+        category: 'Economics',
+        title: 'Do sanitation subsidies crowd out intrinsic motivation for hygiene adoption, or do they act as behavioural catalysts?',
+        author: 'Research Project By Ojal Bansal',
+        file: '../pdf/Research Paper By Ojal Bansal (1).pdf'
+    },
+     {
+        icon: './pdfImage/image (150).png',
+        category: 'Economics',
+        title: 'To what extent has the adoption of UPI transformed consumer payment preferences compared to traditional cash and card transactions in India?',
+        author: 'Research Project By Vivaan Sehgal',
+        file: '../pdf/Research Paper By Vivaan Sehgal.pdf'
+    },
+     {
+        icon: './pdfImage/image (151).png',
+        category: 'Economics',
+        title: 'How has digital banking integration with e-commerce platforms influenced frequency and volume of online purchases?',
+        author: 'Research Project By Aushnik Acharya',
+        file: '../pdf/Research Paper By Aushnik Acharya.pdf'
+    },
 ]
 
 // ================================
@@ -1023,7 +1051,7 @@ function loadPapers(filteredPapers = papers) {
     const grid = document.getElementById('papersGrid');
     grid.innerHTML = "";
 
-    filteredPapers.forEach(paper => {
+    filteredPapers.slice().reverse().forEach(paper => {
         const card = `
             <div class="paper-item">
                 <div class="item-icon">
@@ -1045,9 +1073,8 @@ function loadPapers(filteredPapers = papers) {
         grid.innerHTML += card;
     });
 }
-
-
-
-
 // Page load hote hi papers show karo
 loadPapers();
+
+
+
