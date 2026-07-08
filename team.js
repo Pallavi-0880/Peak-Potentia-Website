@@ -3,7 +3,7 @@ const teams = {
     {
       name: 'Chavi Behl',
       role: 'Founder & Chief Academic Officer',
-      img: 'https://fr1ekw4xx.tribe.junction.express/uploads/2025/04-April/09-Wed/sm/chavi_6619378df4142_67f60db45c912.png',
+      img: '../pdfImage/WhatsApp Image 2026-07-07 at 4.44.14 PM.jpeg',
       shortDesc:'Chavi Behl is dedicated to helping students discover their hidden talents and reach their full potential.',
       fullDesc:"Chavi Behl is a pioneer in the field of education, having dedicated her life to helping students reach their full potential. With over 20 years of experience as a senior school teacher, Vice Principal, and paper checker with both ISC and CBSE board exams, Chavi has honed her skills as an educator and developed a strong understanding of what it takes to help students succeed. Chavi's passion for teaching and guiding students began during her time as a postgraduate at The Delhi School of Economics. It was here that she realized that every student has the potential to excel if they are given the right tools and guidance. This realization sparked a lifelong mission for Chavi - to create a process that focuses on helping students discover their hidden talents and abilities. ",
       linkedin:'https://www.linkedin.com/in/chavi-behl-62027754/'
