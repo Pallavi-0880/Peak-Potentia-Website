@@ -1000,14 +1000,7 @@ const papers = [
         author: 'Research Project By Avnee Gehlot',
         file: '../pdf/Research Project By Avnee Gehlot.pdf'
     },
-      {
-        icon: './pdfImage/image (148).png',
-        category: 'Economics',
-        title: 'Does Higher HDI Strengthen the Impact of Government Financial Inclusion Schemes on Consumption Behaviour?',
-        author: 'Research Project By Sanya Sharma',
-        file: '../pdf/Sanya Sharma Research Paper. (1).pdf'
-    },
-      {
+            {
         icon: './pdfImage/image (149).png',
         category: 'Economics',
         title: 'Do sanitation subsidies crowd out intrinsic motivation for hygiene adoption, or do they act as behavioural catalysts?',
