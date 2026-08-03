@@ -959,7 +959,7 @@
                         style="font-family:'Newsreader',Georgia,serif;font-weight:700;font-size:15px;color:#3a4048;text-decoration:none;display:inline-flex;align-items:center;gap:5px;white-space:nowrap;padding:6px 0;">Competitions</a>
                 </li>
                 <li><a href="teaching.html"
-                        style="font-family:'Newsreader',Georgia,serif;font-weight:700;font-size:15px;color:#3a4048;text-decoration:none;display:inline-flex;align-items:center;gap:5px;white-space:nowrap;padding:6px 0;">Academic
+                        style="font-family:'Newsreader',Georgia,serif;font-weight:700;font-size:15px;color:#3a4048;text-decoration:none;display:inline-flex;align-items:center;gap:5px;white-space:nowrap;padding:6px 0;">Curriculum
                         Teaching</a></li>
                 <li><a href="library.html"
                         style="font-family:'Newsreader',Georgia,serif;font-weight:700;font-size:15px;color:#3a4048;text-decoration:none;display:inline-flex;align-items:center;gap:5px;white-space:nowrap;padding:6px 0;">Library</a>
@@ -1002,7 +1002,7 @@
                         </h1>
                         <a href="https://api.whatsapp.com/send/?phone=919818184460&text&type=phone_number&app"
                             class="pp-cta" target="_blank"
-                            style="display:inline-block;font-family:'Newsreader',Georgia,serif;font-weight:600;font-size:clamp(0.85rem, 1.7vh, 1.05rem);color:#fff;text-decoration:none;padding:clamp(10px,2vh,22px) clamp(18px,3vw,34px);border-radius:999px;background:#F6C445;box-shadow:0 10px 30px -8px color-mix(in srgb, #F6C445 55%, transparent);transition:transform .25s ease, box-shadow .25s ease, background .25s ease;animation:cr-pulse 2.6s ease-in-out infinite;">Book
+                            style="display:inline-block;font-family:'Newsreader',Georgia,serif;font-weight:600;font-size:clamp(0.85rem, 1.7vh, 1.05rem);color:#fff;text-decoration:none; margin-top: 3%;  padding:clamp(10px,2vh,22px) clamp(18px,3vw,34px);border-radius:999px;background:#F6C445;box-shadow:0 10px 30px -8px color-mix(in srgb, #F6C445 55%, transparent);transition:transform .25s ease, box-shadow .25s ease, background .25s ease;animation:cr-pulse 2.6s ease-in-out infinite;">Book
                             a call</a>
                     </div>
                 </div>
@@ -2403,7 +2403,7 @@
                             </ul>
                             <p
                                 style="font-family:'Work Sans',system-ui,sans-serif;font-size:14px;color:#8a8f96;margin:18px 0 0">
-                                Available online &amp; offline.</p>
+                                Available Online, Offline &amp; Hybrid.</p>
                         </div>
                     </div>
                 </div>
@@ -3931,7 +3931,11 @@
                 if (ev.target.id === 'pp-comps') closeM('pp-comps');
             });
             Array.prototype.forEach.call(document.querySelectorAll('[data-stop]'), function (p) {
-                p.addEventListener('click', function (e) { e.stopPropagation(); });
+                p.addEventListener('click', function (e) {
+                    var actionEl = e.target.closest ? e.target.closest('[data-action]') : null;
+                    if (actionEl && p.contains(actionEl)) return;   // ✕ / action button inside panel — let its click reach the handler
+                    e.stopPropagation();
+                });
             });
 
             /* ---------- 5) Competition filters (All / Open / Closed / TBA) ---------- */
