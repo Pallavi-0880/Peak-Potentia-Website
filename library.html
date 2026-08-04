@@ -5,8 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Library — Peak Potentia</title>
-   <link rel="icon" type="image/png"
-        href="peak-potentia-icon.png">
+  <link rel="icon" type="image/png" href="peak-potentia-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
   <style data-from="style.css">
@@ -1005,7 +1004,7 @@
             }
             tombstones.clear();
           })
-          .catch(() => {})
+          .catch(() => { })
           .then(() => {
             loaded = true;
             subs.forEach((fn) => fn());
@@ -1035,8 +1034,8 @@
         const w = window.omelette && window.omelette.writeFile;
         if (!w) return;
         try {
-          Promise.resolve(w(STATE_FILE, JSON.stringify(slots))).catch(() => {});
-        } catch (e) {}
+          Promise.resolve(w(STATE_FILE, JSON.stringify(slots))).catch(() => { });
+        } catch (e) { }
       }
 
       function save() {
@@ -1048,7 +1047,7 @@
         if (!w) return;
         saving = true;
         Promise.resolve(w(STATE_FILE, JSON.stringify(slots)))
-          .catch(() => {})
+          .catch(() => { })
           .then(() => {
             saving = false;
             if (saveDirty) {
@@ -1317,8 +1316,8 @@
               const prev = getSlot(toId);
               const cur = getSlot(fromId);
               if (!(prev && cur && prev.u && prev.u === cur.u &&
-                  prev.s === cur.s && prev.x === cur.x && prev.y === cur.y &&
-                  (typeof isFree !== 'function' || isFree(toId)))) continue;
+                prev.s === cur.s && prev.x === cur.x && prev.y === cur.y &&
+                (typeof isFree !== 'function' || isFree(toId)))) continue;
               return toId;
             }
             if (typeof isFree === 'function' && !isFree(toId)) continue;
@@ -1532,7 +1531,7 @@
             const up = () => {
               try {
                 this._spill.releasePointerCapture(e.pointerId);
-              } catch {}
+              } catch { }
               this._spill.removeEventListener('pointermove', move);
               this._spill.removeEventListener('pointerup', up);
               this._spill.removeEventListener('pointercancel', up);
@@ -1635,11 +1634,11 @@
           // change) so the overlay can't detach from the frame.
           try {
             this._spill.showPopover();
-          } catch {}
+          } catch { }
           // After the spill, so the controls stack above it in the top layer.
           try {
             this._ctl.showPopover();
-          } catch {}
+          } catch { }
           this._reposition = () => {
             if (this.hasAttribute('data-reframe')) this._applyView();
           };
@@ -1696,10 +1695,10 @@
           }
           try {
             this._spill.hidePopover();
-          } catch {}
+          } catch { }
           try {
             this._ctl.hidePopover();
-          } catch {}
+          } catch { }
           this._ctl.style.left = '';
           this._ctl.style.top = '';
           if (commit) this._commitView();
@@ -1937,7 +1936,7 @@
             let onTop = false;
             try {
               onTop = this._ctl.matches(':popover-open');
-            } catch {}
+            } catch { }
             if (onTop) {
               const r = this.getBoundingClientRect();
               this._ctl.style.left = (r.right - 8) + 'px';
@@ -2123,7 +2122,7 @@
                 if (u.protocol === 'http:' || u.protocol === 'https:') {
                   href = withReferral(u.href);
                 }
-              } catch {}
+              } catch { }
             }
             const mkLink = (text, linkHref) => {
               const a = document.createElement('a');
@@ -2296,7 +2295,225 @@
         "Technology", "Education"
       ];
       var STUDENTS_MENTORED = 40;
-      var LIBRARY_PAPERS = [{
+      var LIBRARY_PAPERS = [
+         {
+          field: 'Economics',
+          title: 'How Does Formalization of Informal Artisan Economies under ODOP Affect Wage Structures and Labour Migration?',
+          author: 'Aryaman Jain',
+          link: 'pdfs/Research Paper By Aryaman Jain.pdf'
+        },
+         {
+          field: 'Behavioral Economics',
+          title: 'To what extent does herd behaviour among retail investors on platforms like Zerodha and Groww contribute to stock market volatility in India?',
+          author: 'Hiresh Duggar',
+          link: 'pdfs/Research Paper by Hiresh Duggar.pdf'
+        },
+         {
+          field: 'Technology',
+          title: 'To What Extent Can AI Tools Accurately Diagnose Common Diseases in Low-Resource Settings Like Rural India, and What Biological or Technical Factors Limit Their Effectiveness?',
+          author: 'Anaya Shah',
+          link: 'pdfs/Research Paper By Anaya Shah.pdf'
+        },
+         {
+          field: 'Economics',
+          title: 'When the RBI cuts rates, is it responding to economic fundamentals or fiscal pressure from the government to reduce borrowing costs? Who is really driving monetary policy in India?',
+          author: 'Reyansh Dhingra',
+          link: 'pdfs/Research Paper By Reyansh Dhingra.pdf'
+        },
+         {
+          field: 'Behavioral Economics',
+          title: 'To What Extent Does Intrinsic Versus Extrinsic Motivation Predict Long-Term Athletic Performance in Adolescent Athletes?',
+          author: 'Nitya Jimmy Mahtani',
+          link: 'pdfs/Research Paper By Nitya Jimmy Mahtani.pdf'
+        },
+         {
+          field: 'Behavioral Economics',
+          title: 'Does brand storytelling have a stronger psychological impact on consumer loyalty than product quality in the Indian FMCG sector?',
+          author: 'Sumer Malhotra',
+          link: 'pdfs/Research Paper By Sumer Malhotra.pdf'
+        },
+         {
+          field: 'Economics',
+          title: 'To what extent does Indias fertilizer subsidy policy achieve its stated goal of ensuring food security?',
+          author: 'Aarav Chokhani',
+          link: 'pdfs/Research Paper By Aarav Chokhani.pdf'
+        },
+        {
+          field: 'Technology',
+          title: 'To What Extent Has the Adoption of AI and Automation Reduced Demand for Mid-Skill Labour in Service Industries?',
+          author: 'Krishang Shah',
+          link: 'pdfs/Research Paper By Krishang Shah.pdf'
+        },
+        {
+          field: 'Behavioral Economics',
+          title: 'To what extent can color psychology influence consumer perceptions of product quality?',
+          author: 'Samairaa Gupta',
+          link: 'pdfs/Research Paper By Samairaa Gupta.pdf'
+        }, 
+      {
+          field: 'Economics',
+          title: 'Does higher HDI strengthen the impact of government financial inclusion schemes on consumption behaviour?',
+          author: 'Sanya Sharma',
+          link: 'pdfs/FINAL Research Paper of Sanya.pdf'
+        },  
+      {
+          field: 'Finance',
+          title: 'To What Extent Do Deal Premiums in M&A Transactions Reflect Synergy Expectations Versus Managerial Hubris?',
+          author: 'Hastiv Sanghvi',
+          link: 'pdfs/Research Paper By Hastiv Sanghvi.pdf'
+        },
+        {
+          field: 'Environmental Science',
+          title: 'How effective is Waste Management Policies in reducing environmental pollution?',
+          author: 'Siyona Munjal',
+          link: 'pdfs/Research Paper By Siyona Munjal.pdf'
+        },
+        {
+          field: 'Finance',
+          title: 'How does mispricing vary across market capitalization and liquidity segments?',
+          author: 'Fateh Singh Kalha',
+          link: 'pdfs/Research Paper By Fateh Singh Kalha.pdf'
+        },
+        {
+          field: 'Economics',
+          title: 'Does a Higher Basic Customs Duty on Gold Reduce Indias Current Account Deficit, or Does It Merely Shift the Deficits Form from Official Imports to Informal Channels?',
+          author: 'Ishaan Jain',
+          link: 'pdfs/Research Paper By Ishaan Jain.pdf'
+        },
+        {
+          field: 'Technology',
+          title: 'How Has the Adoption of Machine Learning in Service Industries Influenced Labour Demand for Mid-Skill Workers?',
+          author: 'Bhavika Khanna',
+          link: 'pdfs/Research Paper By Bhavika Khanna.pdf'
+        },
+        {
+          field: 'Behavioral Economics',
+          title: 'How does social media and influencer marketing shape consumer trust and purchasing decisions in the pet industry?',
+          author: 'Zara Noshir Mehta',
+          link: 'pdfs/Research Paper By Zara Noshir Mehta.pdf'
+        },
+        {
+          field: 'Economics',
+          title: 'To what extent has digital financial inclusion contributed to reducing income inequality in developing economies, and through which economic channels has this effect occurred?',
+          author: 'Anusha Saluja',
+          link: 'pdfs/Research Paper By Anusha Saluja.pdf'
+        },
+        {
+          field: 'Behavioral Economics',
+          title: 'Do influencer endorsements distort consumer perceptions of product quality relative to price?',
+          author: 'Yashica Jain',
+          link: 'pdfs/Research Paper By Yashica Jain.pdf'
+        },
+        {
+          field: 'Education',
+          title: 'How effective are existing disability laws (such as the Rights of Persons with Disabilities Act, 2016 in India or the IDEA in the U.S.) in ensuring equitable educational opportunities for individuals with learning disabilities?',
+          author: 'Shivali Khaitan',
+          link: 'pdfs/Research Paper By Shivali Khaitan.pdf'
+        },
+        {
+          field: 'Behavioral Economics',
+          title: 'How do behavioural economics–informed policy tools interact with institutional capacity to reduce implementation gaps in developing countries?',
+          author: 'Shanaya Anish Bafna',
+          link: 'pdfs/Research Paper By Shanaya Anish Bafna.pdf'
+        },
+        {
+          field: 'Finance',
+          title: 'How do rising interest rates influence portfolio allocation between equities, bonds, and alternative assets?',
+          author: 'Arjan Shah',
+          link: 'pdfs/Research Paper By Arjan Shah.pdf'
+        },
+        {
+          field: 'Finance',
+          title: 'To What Extent Do Microfinance Programs Improve the Entrepreneurial Success of Rural Women? Evidence from Credit Access, Financial Literacy, Training, and Mentorship Across Socio-Economic and Cultural Contexts',
+          author: 'Advika Gupta',
+          link: 'pdfs/Research Paper By Advika Gupta.pdf'
+        },
+        {
+          field: 'Economics',
+          title: 'How effective are trade-related policy instruments (tariffs, subsidies,standards) in internalising environmental externalities?',
+          author: 'Naavya Seksaria',
+          link: 'pdfs/Research Paper By Naavya Seksaria.pdf'
+        },
+        {
+          field: 'Behavioral Economics',
+          title: 'How does public trust in government institutions influence compliance with economic policies such as taxation or austerity measures?',
+          author: 'Dia Singhvi',
+          link: 'pdfs/Research Paper By Dia Singhvi.pdf'
+        },
+        {
+          field: 'Technology',
+          title: 'How does the integration of AI into supply chain management affect resilience and risk mitigation in global businesses?',
+          author: 'Parth Agarwal',
+          link: 'pdfs/Research Paper By Parth Agarwal.pdf'
+        },
+        {
+          field: 'Economics',
+          title: 'To what extent do consumption patterns among youth (aged 18–30) differ between India and the UK in terms of spending, priorities,saving behaviour, and discretionary expenditure?',
+          author: 'Rishi Razdan',
+          link: 'pdfs/Research Paper By Rishi Razdan.pdf'
+        },
+        {
+          field: 'Economics',
+          title: 'How does price discrimination in digital markets affect consumer welfare and market efficiency?',
+          author: 'Yuvraj Agrawal',
+          link: 'pdfs/Research Paper By Yuvraj Agrawal.pdf'
+        },
+        {
+          field: 'Finance',
+          title: 'To What Extent Has ESG Regulation Influenced Corporate Investment in Sustainable Projects?',
+          author: 'Abhiveer Gulati',
+          link: 'pdfs/Research Paper By Abhiveer Gulati.pdf'
+        },
+        {
+          field: 'Technology',
+          title: 'To what extent do traditional counting statistics like points, assists etc. fail to capture a player’s contextual value in high-leverage (‘clutch’) situations across professional sports?',
+          author: 'Aarush Kote',
+          link: 'pdfs/Research Paper By Aarush Kote.pdf'
+        },
+        {
+          field: 'Economics',
+          title: 'How has digital banking integration with e-commerce platforms influenced frequency and volume of online purchases?',
+          author: 'Aushnik Acharya',
+          link: 'pdfs/Research Paper By Aushnik Acharya.pdf'
+        },
+        {
+          field: 'Economics',
+          title: 'How has the affordability of Parsi Baugs influenced patterns of community living, cultural preservation, and socio-economic diversity within the Parsi population of Mumbai?',
+          author: 'Zaha Irani',
+          link: 'pdfs/Research Paper By Zaha Irani (1).pdf'
+        },
+        {
+          field: 'Economics',
+          title: 'The Workings of a Co-operative Bank and its Role in Real Estate Finance &amp; Development — A Case Study on Zoroastrian Bank',
+          author: 'Zaha Irani',
+          link: 'pdfs/Research Paper By Zaha Irani 2.pdf'
+        },
+        {
+          field: 'Economics',
+          title: 'How Does Minimal or ‘Silent’ Branding in Luxury Fashion Influence Consumer Perceptions of Exclusivity, and What Are the Economic Effects of This Strategy on Brand Equity?',
+          author: 'Zara Seth',
+          link: 'pdfs/Research Paper By Zara Seth (5).pdf'
+        },
+        {
+          field: 'Economics',
+          title: 'Understanding the operations of steam boilers and making recommendations for optimizing them towards sustainability measures &amp; waste reduction.',
+          author: 'Avnee Gehlot',
+          link: 'pdfs/Research Project By Avnee Gehlot.pdf'
+        },
+        {
+          field: 'Economics',
+          title: 'Do sanitation subsidies crowd out intrinsic motivation for hygiene adoption, or do they act as behavioural catalysts?',
+          author: 'Ojal Bansal',
+          link: 'pdfs/Research Paper By Ojal Bansal (1).pdf'
+        },
+        {
+          field: 'Economics',
+          title: 'To what extent has the adoption of UPI transformed consumer payment preferences compared to traditional cash and card transactions in India?',
+          author: 'Vivaan Sehgal',
+          link: 'pdfs/Research Paper By Vivaan Sehgal.pdf'
+        },
+
+        {
           field: 'Cinema Studies',
           title: 'How Does Mobile Banking Contribute to Financial Inclusion in Emerging Economies?',
           author: 'Aamanya Shah',
@@ -3118,48 +3335,7 @@
           author: 'Yuavan Khubchandani',
           link: 'pdfs/Research Paper By Yuavan Khubchandani.pdf'
         },
-        {
-          field: 'Economics',
-          title: 'How has the affordability of Parsi Baugs influenced patterns of community living, cultural preservation, and socio-economic diversity within the Parsi population of Mumbai?',
-          author: 'Zaha Irani',
-          link: 'pdfs/Research Paper By Zaha Irani (1).pdf'
-        },
-        {
-          field: 'Economics',
-          title: 'The Workings of a Co-operative Bank and its Role in Real Estate Finance &amp; Development — A Case Study on Zoroastrian Bank',
-          author: 'Zaha Irani',
-          link: 'pdfs/Research Paper By Zaha Irani 2.pdf'
-        },
-        {
-          field: 'Economics',
-          title: 'How Does Minimal or ‘Silent’ Branding in Luxury Fashion Influence Consumer Perceptions of Exclusivity, and What Are the Economic Effects of This Strategy on Brand Equity?',
-          author: 'Zara Seth',
-          link: 'pdfs/Research Paper By Zara Seth (5).pdf'
-        },
-        {
-          field: 'Economics',
-          title: 'Understanding the operations of steam boilers and making recommendations for optimizing them towards sustainability measures &amp; waste reduction.',
-          author: 'Avnee Gehlot',
-          link: 'pdfs/Research Project By Avnee Gehlot.pdf'
-        },
-        {
-          field: 'Economics',
-          title: 'Do sanitation subsidies crowd out intrinsic motivation for hygiene adoption, or do they act as behavioural catalysts?',
-          author: 'Ojal Bansal',
-          link: 'pdfs/Research Paper By Ojal Bansal (1).pdf'
-        },
-        {
-          field: 'Economics',
-          title: 'To what extent has the adoption of UPI transformed consumer payment preferences compared to traditional cash and card transactions in India?',
-          author: 'Vivaan Sehgal',
-          link: 'pdfs/Research Paper By Vivaan Sehgal.pdf'
-        },
-        {
-          field: 'Economics',
-          title: 'How has digital banking integration with e-commerce platforms influenced frequency and volume of online purchases?',
-          author: 'Aushnik Acharya',
-          link: 'pdfs/Research Paper By Aushnik Acharya.pdf'
-        }
+
       ];
 
       var grid = document.getElementById('libGrid');
